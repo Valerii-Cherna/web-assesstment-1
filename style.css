@@ -1,0 +1,121 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.header {
+    background-color: #cfa92b;
+    margin-top: -5px;
+}
+
+.header .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+.header .nav li{
+    float: left;    
+}
+
+.link a {
+    text-decoration: none;
+    color: #1f6634;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    border-right: 2px solid white;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.last a {
+    border: none;
+}
+
+.nav .link {
+    width: 12.5%;
+    font-size: 18px;
+}
+
+.nav .home {
+    width: 61%
+}
+
+.nav .home a {
+    font-size: 30px;
+    color: #955b1e;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.main .left-nav{
+    width: 10%;
+}
+
+.main .photo {
+    width: 38%;
+}
+
+.main .description {
+    width: 40%;
+}
+
+.left-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.left-nav ul li {
+    margin-bottom: 3px;
+}
+
+.left-nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-nav ul .active {
+    font-weight: 600;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.description {
+  padding-left: 20px;
+}
+
+.description p img {
+    float: right;
+    margin-left: 5px;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
